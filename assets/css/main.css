@@ -8,8 +8,9 @@
 
 :root{
     --font: Verdana;
-    --font-size: 16px;
-    --font-size-intro: 48px;
+    --font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+    --font-size-intro: calc(38px + (52 - 38) * ((100vw - 300px) / (1600 - 300)));
+    --line-height-intro: calc(1.4em + (1.7 - 1.4) * ((100vw - 300px)/(1600 - 300)));
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
     --accent-color-bright: rgb(101, 211, 255);
@@ -74,7 +75,7 @@
     text-decoration: none;
     font-family: var(--font);
     font-size: var(--font-size-intro);
-    line-height: 70px;
+    line-height: var(--line-height-intro);
 }
 
 .introduction a {
