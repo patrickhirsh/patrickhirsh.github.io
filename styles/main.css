@@ -8,55 +8,82 @@
 
 :root{
     --font: Verdana;
+    --font-size: 16px;
+    --font-size-intro: 36px;
+    --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
-    font-family: 
+    --accent-color-bright: rgb(101, 211, 255);
+    --side-margins: 10%;
+    --text-padding: 3px 15px;
 }
 
 
 /* NAVIGATION */
 
-.nav{
+.nav {
     float: right;
     list-style: none;
     margin-top: 60px;
-    margin-right: 10%;
+    margin-right: var(--side-margins);
 }
 
-.nav-home{
-    float: left;
-    list-style: none;
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: var(--font-color);
+    text-decoration: none;
+    padding: var(--text-padding);
+    font-family: var(--font);
+    font-size: var(--font-size);
+}
+
+.nav li a:hover {
+    color: var(--accent-color);
+}
+
+.nav-home {
+    position: fixed;
     margin-top: 60px;
-    margin-left: 10%;
+    margin-left: var(--side-margins);
 }
 
-.nav li{
-    display: inline;
-}
-
-.nav-home li{
-    display: inline;
-}
-
-.nav li a{
-    color: #FFF;
+.nav-home a {
+    color: var(--font-color);
     text-decoration: none;
-    padding: 3px 15px;
+    padding: var(--text-padding);
     font-family: var(--font);
-    font-size: 16px;
+    font-size: var(--font-size);
 }
 
-.nav-home li a{
-    color: #FFF;
-    text-decoration: none;
-    padding: 3px 15px;
-    font-family: var(--font);
-    font-size: 16px;
-}
-
-.nav li a:hover{
+.nav-home a:hover {
     color: var(--accent-color);
 }
 
-.nav-home li a:hover{
+
+/* HOME */
+
+.introduction p {
+    position: fixed;
+    padding: var(--text-padding);
+    margin-top: 200px;
+    margin-left: var(--side-margins);
+    margin-right: var(--side-margins);
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size-intro);
+    line-height: 50px;
+}
+
+.introduction a {
     color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size-intro);
+}
+
+.introduction a:hover {
+    color: var(--accent-color-bright);
 }
