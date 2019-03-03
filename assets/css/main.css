@@ -9,7 +9,7 @@
 :root{
     --font: Verdana;
     --font-size: 16px;
-    --font-size-intro: 36px;
+    --font-size-intro: 48px;
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
     --accent-color-bright: rgb(101, 211, 255);
@@ -74,7 +74,7 @@
     text-decoration: none;
     font-family: var(--font);
     font-size: var(--font-size-intro);
-    line-height: 50px;
+    line-height: 70px;
 }
 
 .introduction a {
