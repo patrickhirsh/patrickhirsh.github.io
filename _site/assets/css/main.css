@@ -8,9 +8,9 @@
 
 :root{
     --font: Verdana;
-    --font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
-    --font-size-intro: calc(38px + (52 - 38) * ((100vw - 300px) / (1600 - 300)));
-    --line-height-intro: calc(1.4em + (1.7 - 1.4) * ((100vw - 300px)/(1600 - 300)));
+    --font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 720)));
+    --font-size-intro: 46px;
+    --line-height-intro: 70px;
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
     --accent-color-bright: rgb(101, 211, 255);
