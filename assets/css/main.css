@@ -10,7 +10,7 @@
     --font: Verdana;
     --font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 720)));
     --font-size-intro: 46px;
-    --font-size-construction: 20px;
+    --font-size-construction: 32px;
     --line-height-intro: 70px;
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
