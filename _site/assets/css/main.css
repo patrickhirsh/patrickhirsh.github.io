@@ -66,6 +66,7 @@
 /* HOME */
 
 .introduction p {
+    position: fixed;
     padding: var(--text-padding);
     margin-top: 200px;
     margin-left: var(--side-margins);
