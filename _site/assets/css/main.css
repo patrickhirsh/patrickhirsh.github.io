@@ -92,7 +92,7 @@
 }
 
 .under_construction_intro p {
-    text-align: justify;
+    text-align: left;
     margin-top: 500px;
     margin-left: var(--side-margins);
     margin-right: var(--side-margins);
@@ -103,7 +103,7 @@
 }
 
 .under_construction p {
-    text-align: justify;
+    text-align: left;
     margin-top: 700px;
     color: var(--font-color);
     text-decoration: none;
@@ -112,7 +112,7 @@
 }
 
 .under_construction a {
-    text-align: justify;
+    text-align: left;
     margin-top: 700px;
     color: var(--accent-color);
     text-decoration: none;
