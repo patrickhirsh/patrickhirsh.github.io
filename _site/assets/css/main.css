@@ -10,6 +10,7 @@
     --font: Verdana;
     --font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 720)));
     --font-size-intro: 46px;
+    --font-size-construction: 20px;
     --line-height-intro: 70px;
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
@@ -86,5 +87,27 @@
 }
 
 .introduction a:hover {
+    color: var(--accent-color-bright);
+}
+
+.under_construction p {
+    position: center;
+    margin-top: 200px;
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size-construction);
+}
+
+.under_construction a {
+    position: center;
+    margin-top: 200px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size-construction);
+}
+
+.under_construction a:hover {
     color: var(--accent-color-bright);
 }
