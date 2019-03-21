@@ -91,7 +91,7 @@
 }
 
 .under_construction p {
-    position: center;
+    text-align: center;
     margin-top: 200px;
     color: var(--font-color);
     text-decoration: none;
@@ -100,7 +100,7 @@
 }
 
 .under_construction a {
-    position: center;
+    text-align: center;
     margin-top: 200px;
     color: var(--accent-color);
     text-decoration: none;
