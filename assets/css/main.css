@@ -15,7 +15,7 @@
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
     --accent-color-bright: rgb(101, 211, 255);
-    --side-margins: 10%;
+    --side-margins: 30%;
     --text-padding: 3px 15px;
 }
 
@@ -93,6 +93,8 @@
 .under_construction_intro p {
     text-align: center;
     margin-top: 200px;
+    margin-left: var(--side-margins);
+    margin-right: var(--side-margins);
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
@@ -102,8 +104,6 @@
 .under_construction p {
     text-align: center;
     margin-top: 200px;
-    margin-left: var(--side-margins);
-    margin-right: var(--side-margins);
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
