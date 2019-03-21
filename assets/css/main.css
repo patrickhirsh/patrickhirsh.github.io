@@ -90,7 +90,7 @@
     color: var(--accent-color-bright);
 }
 
-.under_construction {
+.under_construction p a {
     position: center;
     margin-top: 200px;
     color: var(--font-color);
