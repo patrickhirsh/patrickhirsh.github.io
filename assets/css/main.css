@@ -10,7 +10,8 @@
     --font: Verdana;
     --font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 720)));
     --font-size-intro: 46px;
-    --font-size-construction: 32px;
+    --font-size-construction: 26px;
+    --font-size-construction-intro: 20px;
     --line-height-intro: 70px;
     --font-color: rgb(207, 207, 207);
     --accent-color: rgb(0, 183, 255);
@@ -98,7 +99,7 @@
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
-    font-size: var(40px);
+    font-size: var(--font-size-construction-intro);
 }
 
 .under_construction p {
