@@ -67,10 +67,13 @@
 
 /* HOME */
 
+.main {
+    position: relative;
+}
+
 .introduction p {
-    position: fixed;
+    position: absolute;
     padding: var(--text-padding);
-    margin-top: 50px;
     margin-left: var(--side-margins);
     margin-right: var(--side-margins);
     color: var(--font-color);
@@ -92,8 +95,7 @@
 }
 
 .under_construction_intro p {
-    text-align: left;
-    margin-top: 500px;
+    position: absolute;
     margin-left: var(--side-margins);
     margin-right: var(--side-margins);
     color: var(--font-color);
@@ -103,8 +105,7 @@
 }
 
 .under_construction p {
-    text-align: left;
-    margin-top: 700px;
+    position: absolute;
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
@@ -112,8 +113,7 @@
 }
 
 .under_construction a {
-    text-align: left;
-    margin-top: 700px;
+    position: absolute;
     color: var(--accent-color);
     text-decoration: none;
     font-family: var(--font);
