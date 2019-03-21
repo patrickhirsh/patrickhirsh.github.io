@@ -90,11 +90,24 @@
     color: var(--accent-color-bright);
 }
 
-.under_construction p a {
+.under_construction p {
     position: center;
     margin-top: 200px;
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
     font-size: var(--font-size-construction);
+}
+
+.under_construction a {
+    position: center;
+    margin-top: 200px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size-construction);
+}
+
+.under_construction a:hover {
+    color: var(--accent-color-bright);
 }
