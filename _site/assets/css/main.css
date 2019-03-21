@@ -70,7 +70,7 @@
 .introduction p {
     position: fixed;
     padding: var(--text-padding);
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: var(--side-margins);
     margin-right: var(--side-margins);
     color: var(--font-color);
@@ -93,7 +93,7 @@
 
 .under_construction_intro p {
     text-align: justify;
-    margin-top: 250px;
+    margin-top: 500px;
     margin-left: var(--side-margins);
     margin-right: var(--side-margins);
     color: var(--font-color);
@@ -104,7 +104,7 @@
 
 .under_construction p {
     text-align: justify;
-    margin-top: 300px;
+    margin-top: 700px;
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
@@ -113,7 +113,7 @@
 
 .under_construction a {
     text-align: justify;
-    margin-top: 300px;
+    margin-top: 700px;
     color: var(--accent-color);
     text-decoration: none;
     font-family: var(--font);
