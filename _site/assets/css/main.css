@@ -10,12 +10,12 @@
     --font: Verdana;
     --font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 720)));
     --font-size-intro: 46px;
-    --font-size-construction: 20px;
+    --font-size-construction: 32px;
     --line-height-intro: 70px;
     --font-color: #FFF;
     --accent-color: rgb(0, 183, 255);
     --accent-color-bright: rgb(101, 211, 255);
-    --side-margins: 10%;
+    --side-margins: 30%;
     --text-padding: 3px 15px;
 }
 
@@ -93,6 +93,8 @@
 .under_construction_intro p {
     text-align: center;
     margin-top: 200px;
+    margin-left: var(--side-margins);
+    margin-right: var(--side-margins);
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
@@ -102,8 +104,6 @@
 .under_construction p {
     text-align: center;
     margin-top: 200px;
-    margin-left: var(--side-margins);
-    margin-right: var(--side-margins);
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
