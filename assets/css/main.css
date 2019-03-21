@@ -90,9 +90,20 @@
     color: var(--accent-color-bright);
 }
 
+.under_construction_intro p {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(40px);
+}
+
 .under_construction p {
     text-align: center;
     margin-top: 200px;
+    margin-left: var(--side-margins);
+    margin-right: var(--side-margins);
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--font);
